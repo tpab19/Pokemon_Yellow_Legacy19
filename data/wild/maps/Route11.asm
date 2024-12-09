@@ -1,7 +1,7 @@
 Route11WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 16, PIDGEY
-	db 15, RATTATA
+	db 16, RHYHORN
+	db 15, RHYHORN
 	db 18, SANDSHREW
 	db 17, DROWZEE
 	db 17, EKANS

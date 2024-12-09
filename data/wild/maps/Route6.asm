@@ -1,13 +1,13 @@
 Route6WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 15, PIDGEY
-	db 14, RATTATA
+	db 15, CUBONE
+	db 14, PONYTA
 	db 14, ABRA
 	db 16, PIDGEY
 	db 16, LICKITUNG
 	db 15, PSYDUCK
 	db 17, PIDGEOTTO
-	db 16, MAGNEMITE
+	db 16, PONYTA
 	db 17, MAGNEMITE
 	db 19, MAGNEMITE
 	end_grass_wildmons
