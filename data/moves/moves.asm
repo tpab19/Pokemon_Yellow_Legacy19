@@ -143,7 +143,7 @@ Moves:
 	move SKULL_BASH,   HYPER_BEAM_EFFECT,          100, NORMAL,       100, 15
 	move SPIKE_CANNON, TWO_TO_FIVE_ATTACKS_EFFECT,  20, NORMAL,       100, 15
 	move CONSTRICT,    SPEED_DOWN_SIDE_EFFECT,      40, NORMAL,       100, 35
-	move AMNESIA,      SPECIAL_UP2_EFFECT,           0, BIRD,         100, 20
+	move AMNESIA,      SPECIAL_UP1_EFFECT,           0, BIRD,         100, 20
 	move KINESIS,      ACCURACY_DOWN1_EFFECT,        0, BIRD,         80,  15
 	move SOFTBOILED,   HEAL_EFFECT,                  0, BIRD,         100, 5
 	move HI_JUMP_KICK, JUMP_KICK_EFFECT,           120, FIGHTING,      90, 20
