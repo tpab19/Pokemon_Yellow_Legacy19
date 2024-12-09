@@ -631,7 +631,7 @@ TangelaEvosMoves:
 ; Learnset
 	db 15, ABSORB
 	db 19, VINE_WHIP
-	db 21, POISONPOWDER
+	db 21, LEECH_SEED
 	db 23, STUN_SPORE
 	db 25, SLEEP_POWDER
 	db 32, MEGA_DRAIN
@@ -829,6 +829,7 @@ ArbokEvosMoves:
 	db 15, BITE
 	db 18, ACID
 	db 22, SUBSTITUTE
+	db 23, LEECH_LIFE
 	db 25, GLARE
 	db 30, SCREECH
 	db 35, SLUDGE
@@ -846,6 +847,7 @@ ParasectEvosMoves:
 	db 24, SPORE
 	db 27, MEGA_DRAIN
 	db 30, SLASH
+	db 32, NIGHT_SHADE
 	db 36, GROWTH
 	db 0
 
@@ -1934,7 +1936,7 @@ KinglerEvosMoves:
 	db 28, CUT
 	db 30, STOMP
 	db 35, CRABHAMMER
-	db 40, HARDEN
+	db 40, CLAMP
 	db 50, GUILLOTINE
 	db 0
 
@@ -2022,7 +2024,7 @@ MarowakEvosMoves:
 	db 18, HEADBUTT
 	db 25, FOCUS_ENERGY
 	db 31, BONEMERANG
-	db 38, THRASH
+	db 35, NIGHT_SHADE
 	db 46, EARTHQUAKE
 	db 0
 
