@@ -5,7 +5,7 @@ Route4WildMons:
 	db 12, MANKEY
 	db 13, FARFETCHD
 	db 13, SANDSHREW
-	db 13, RATTATA
+	db 13, DODUO
 	db 14, SANDSHREW
 	db 12, PSYDUCK
 	db 13, PSYDUCK

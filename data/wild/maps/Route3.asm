@@ -7,7 +7,7 @@ Route3WildMons:
 	db 10, RATTATA
 	db 10, RATTATA
 	db 11, ODDISH
-	db 12, RATTATA
+	db 12, VENONAT
 	db 13, SPEAROW
 	db 14, SPEAROW
 	end_grass_wildmons
