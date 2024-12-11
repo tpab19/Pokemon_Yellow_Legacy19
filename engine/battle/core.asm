@@ -3604,7 +3604,7 @@ CheckPlayerStatusConditions:
 	ld [wPlayerUsedMove], a
 	ld hl, ExecutePlayerMoveDone ; player can't move this turn
 	jp .returnToHL
-	thawFrozenStatus
+	.thawFrozenStatus
 	xor a
 	ld [wBattleMonStatus], a
 	ld hl, wPartyMon1Status
