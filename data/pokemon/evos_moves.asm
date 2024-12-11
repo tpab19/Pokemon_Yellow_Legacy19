@@ -1647,6 +1647,7 @@ PoliwrathEvosMoves:
 	db 22, BUBBLEBEAM
 	db 25, KARATE_CHOP
 	db 30, ICE_PUNCH
+	db 33, SUBMISSION
 	db 35, BODY_SLAM
 	db 43, HYPNOSIS
 	db 48, AMNESIA
@@ -1858,6 +1859,7 @@ GolbatEvosMoves:
 	db 12, BITE
 	db 19, CONFUSE_RAY
 	db 22, WING_ATTACK
+	db 24, LEECH_LIFE
 	db 27, ACID
 	db 36, SLUDGE
 	db 46, HAZE
