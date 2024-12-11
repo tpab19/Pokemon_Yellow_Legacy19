@@ -27,7 +27,7 @@ SpecialTrainerMoves:
 	db 0
 
 	db MISTY, 1
-	db 2, 1, TAIL_WHIP
+	db 3, 3, AGILITY
 	db 0
 
 	db MISTY, 2
@@ -70,8 +70,9 @@ SpecialTrainerMoves:
 	db 6, 4, THUNDER_WAVE
 	db 0
 
-	db ERIKA, 1 ; db $FF, 33, TANGELA, 34, VICTREEBEL, 31, IVYSAUR, 35, VILEPLUME, 0
+	db ERIKA, 1 ; db $FF, 33, TANGELA, 34, EXEGGUTOR, 31, IVYSAUR, 35, VILEPLUME, 0
 	db 1, 1, BIND
+	db 2, 3, CONFUSION
 	db 3, 1, RAZOR_LEAF
 	db 3, 2, ACID
 	db 3, 3, LEECH_SEED
@@ -118,32 +119,26 @@ SpecialTrainerMoves:
 	db 6, 4, MEGA_DRAIN
     db 0
 
-	db KOGA, 1 ; 42, GOLBAT, 42, MUK, 41, TENTACRUEL, 43, VENOMOTH, 0
-	db 1, 2, TOXIC
-	db 1, 3, BITE
-	db 2, 1, ACID_ARMOR
-	db 2, 3, MEGA_DRAIN
+	db KOGA, 1 ; 42, SCYTHER, 42, GOLBAT, 42, TENTACRUEL, 43, VICTREEBEL, 0
+	db 1, 1, FOCUS_ENERGY
+	db 2, 3, CONFUSE_RAY
 	db 3, 1, SURF
 	db 3, 2, ICE_BEAM
 	db 3, 4, SLUDGE
-	db 4, 1, SOLARBEAM
-	db 4, 2, DOUBLE_TEAM
-	db 4, 3, TOXIC
+	db 4, 1, STUN_SPORE
+	db 4, 2, MEGA_DRAIN
 	db 0
 
-	db KOGA, 2 ; 49, GOLBAT, 48, MUK, 49, TENTACRUEL, 48, WEEZING, 50, VENOMOTH, 0
-	db 1, 1, TOXIC
-	db 1, 2, CONFUSE_RAY
-	db 1, 4, BITE
-	db 2, 2, MEGA_DRAIN
-	db 2, 4, ACID_ARMOR
+	db KOGA, 2 ; 48, SCYTHER, 49, GOLBAT, 49, TENTACRUEL, 48, MUK, 50, VICTREEBEL, 0
+	db 1, 4, FOCUS_ENERGY
+	db 2, 1, TOXIC
+	db 2, 2, CONFUSE_RAY
+	db 2, 4, BITE
 	db 3, 2, SURF
 	db 3, 3, ICE_BEAM
-	db 4, 2, SLUDGE
-	db 4, 3, THUNDERBOLT
-	db 5, 1, SOLARBEAM
-	db 5, 2, DOUBLE_TEAM
-	db 5, 3, TOXIC
+	db 4, 2, MEGA_DRAIN
+	db 4, 4, ACID_ARMOR
+	db 5, 1, MEGA_DRAIN
 	db 0
 
 	db KOGA, 3
@@ -166,20 +161,14 @@ SpecialTrainerMoves:
 	db 0
 
 	db BLAINE, 1
-	db 2, 1, FIRE_BLAST
-	db 2, 2, WING_ATTACK
-	db 2, 3, SLASH
-	db 2, 4, SEISMIC_TOSS
-	db 3, 1, FIRE_BLAST
-	db 3, 2, CONFUSE_RAY
+	db 2, 3, FIRE_BLAST
+	db 3, 1, CONFUSE_RAY
+	db 3, 2, FIRE_BLAST
 	db 3, 3, SOLARBEAM
-	db 4, 1, FIRE_BLAST 
-	db 4, 2, DOUBLE_EDGE
-	db 4, 3, DIG
-	db 5, 1, FIRE_BLAST
-	db 5, 2, PSYCHIC_M
-	db 5, 3, CONFUSE_RAY
-	db 5, 4, THUNDERPUNCH
+	db 4, 1, FIRE_BLAST
+	db 4, 2, PSYCHIC_M
+	db 4, 3, CONFUSE_RAY
+	db 4, 4, THUNDERPUNCH
 	db 0
 
 	db BLAINE, 2
@@ -318,15 +307,15 @@ SpecialTrainerMoves:
 	db 5, 3, EARTHQUAKE
 	db 0
 
-	db AGATHA, 1 ; 57, GENGAR, 58, GOLBAT, 57, MAROWAK, 58, ARBOK, 59, GENGAR
+	db AGATHA, 1 ; 57, GENGAR, 58, PARASECT, 57, MAROWAK, 58, NINETALES, 59, GENGAR
 	db 1, 1, MEGA_DRAIN
 	db 2, 1, FLY
-	db 2, 2, TOXIC
-	db 2, 4, DOUBLE_TEAM
+	db 2, 2, SPORE
 	db 3, 1, SWORDS_DANCE
 	db 3, 2, BODY_SLAM
 	db 3, 3, ROCK_SLIDE 
-	db 4, 2, SUBSTITUTE
+	db 4, 1, CONFUSE_RAY
+	db 4, 2, FIRE_BLAST
 	db 5, 1, PSYCHIC_M
 	db 5, 3, MEGA_DRAIN
 	db 5, 4, THUNDER
@@ -459,23 +448,21 @@ SpecialTrainerMoves:
 	db 6, 2, HEADBUTT
 	db 0
 
-	db RIVAL3, 2 ; Champion - 62, MAGNETON, 61, DODRIO, 63, ALAKAZAM, 60, SANDSLASH, 62, CLOYSTER, 65, FLAREON
-	db 1, 1, THUNDER_WAVE
-	db 1, 3, REFLECT
+	db RIVAL3, 2 ; Champion - 62, SCYTHER, 61, DODRIO, 63, ALAKAZAM, 60, NIDOKING, 62, GOLDUCK, 65, FLAREON
+	db 1, 1, FOCUS_ENERGY
+	db 1, 3, WING_ATTACK
 	db 2, 1, DRILL_PECK
 	db 2, 2, HYPER_BEAM
 	db 2, 4, DOUBLE_TEAM
 	db 3, 1, THUNDER_WAVE
-	db 4, 1, ROCK_SLIDE
-	db 4, 2, CUT
-	db 5, 2, EXPLOSION
-	db 5, 3, DOUBLE_TEAM  
-	db 6, 1, REFLECT
-	db 6, 2, BODY_SLAM
+	db 4, 2, BLIZZARD
+	db 4, 4, THUNDER
+	db 5, 1, ICE_BEAM
+	db 6, 1, BODY_SLAM
 	db 6, 3, DIG
 	db 0
 
-	db RIVAL3, 3 ; Champion - 60, MACHAMP, 61, PIDGEOT, 62, NINETALES, 62, VICTREEBEL, 63, ALAKAZAM, 65, VAPOREON
+	db RIVAL3, 3 ; Champion - 60, MACHAMP, 61, PIDGEOT, 62, NINETALES, 62, EXEGGUTOR, 63, ALAKAZAM, 65, VAPOREON
 	db 1, 1, EARTHQUAKE
 	db 1, 2, ROCK_SLIDE
 	db 2, 1, TOXIC
@@ -483,7 +470,7 @@ SpecialTrainerMoves:
 	db 2, 4, DOUBLE_TEAM
 	db 3, 1, PSYWAVE
 	db 3, 2, SOLARBEAM
-	db 4, 1, MEGA_DRAIN
+	db 4, 1, SOFTBOILED
 	db 5, 1, DOUBLE_TEAM
 	db 6, 1, BLIZZARD
 	db 6, 2, REFLECT
