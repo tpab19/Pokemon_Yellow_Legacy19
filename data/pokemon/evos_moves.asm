@@ -1599,6 +1599,7 @@ EkansEvosMoves:
 	db 12, BITE
 	db 15, ACID
 	db 22, SUBSTITUTE
+	db 23, LEECH_LIFE
 	db 25, GLARE
 	db 30, SCREECH
 	db 35, SLUDGE
@@ -1791,12 +1792,13 @@ ButterfreeEvosMoves:
 	db 0
 ; Learnset
 	db 10, CONFUSION
+	db 11, GUST
 	db 12, LEECH_LIFE
-	db 13, POISONPOWDER
+	db 13, ABSORB
 	db 14, STUN_SPORE
 	db 15, SLEEP_POWDER
-	db 18, SUPERSONIC
-	db 24, GUST
+	db 18, MEGA_DRAIN
+	db 24, WING_ATTACK
 	db 24, PSYBEAM
 	db 28, WHIRLWIND
 	db 32, PSYCHIC_M
