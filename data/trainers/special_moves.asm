@@ -107,16 +107,15 @@ SpecialTrainerMoves:
 	db 1, 3, STUN_SPORE
 	db 2, 2, LEECH_SEED
 	db 2, 3, SLEEP_POWDER
-	db 2, 4, RAZOR_LEAF
 	db 3, 1, LEECH_LIFE
 	db 3, 3, SOLARBEAM
 	db 4, 1, MEGA_DRAIN
 	db 4, 2, SUBSTITUTE
 	db 5, 1, MEGA_DRAIN
 	db 5, 3, GROWTH
-	db 6, 2, LEECH_SEED
-	db 6, 3, SUBSTITUTE
-	db 6, 4, MEGA_DRAIN
+	db 6, 1, SLUDGE
+	db 6, 3, LEECH_SEED
+	db 6, 4, SUBSTITUTE
     db 0
 
 	db KOGA, 1 ; 42, SCYTHER, 42, GOLBAT, 42, TENTACRUEL, 43, VICTREEBEL, 0
@@ -142,22 +141,21 @@ SpecialTrainerMoves:
 	db 0
 
 	db KOGA, 3
-	db 1, 1, FLY
-	db 1, 2, TOXIC
-	db 1, 3, DOUBLE_TEAM
-	db 1, 4, CONFUSE_RAY
-	db 2, 3, MEGA_DRAIN
-	db 2, 4, MINIMIZE
+	db 1, 1, WING_ATTACK
+	db 1, 3, FOCUS_ENERGY
+	db 2, 1, SKY_ATTACK
+	db 2, 2, TOXIC
+	db 2, 3, SLUDGE
+	db 2, 4, CONFUSE_RAY
 	db 3, 1, SURF
 	db 3, 3, BLIZZARD
 	db 3, 4, REFLECT
-	db 4, 2, FIRE_BLAST
-	db 4, 3, THUNDERBOLT
-	db 4, 4, SLUDGE
-	db 5, 2, EARTHQUAKE
-	db 5, 3, ROCK_SLIDE
-	db 6, 1, DOUBLE_TEAM
-	db 6, 4, LEECH_LIFE
+	db 4, 3, MEGA_DRAIN
+	db 4, 4, MINIMIZE
+	db 5, 1, PETAL_DANCE
+	db 6, 2, FIRE_BLAST
+	db 6, 3, THUNDERBOLT
+	db 6, 4, SLUDGE
 	db 0
 
 	db BLAINE, 1
@@ -172,21 +170,19 @@ SpecialTrainerMoves:
 	db 0
 
 	db BLAINE, 2
-	db 1, 2, AGILITY
-	db 1, 3, SOLARBEAM
-	db 1, 4, HORN_DRILL
-	db 2, 4, DIG
+	db 1, 2, BODY_SLAM
+	db 2, 1, SWORDS_DANCE
+	db 2, 2, EARTHQUAKE
+	db 2, 4, FIRE_BLAST
+	db 3, 1, CONFUSE_RAY
 	db 3, 2, FIRE_BLAST
-	db 3, 3, EARTHQUAKE
-	db 3, 4, SWORDS_DANCE
-	db 4, 2, CONFUSE_RAY
-	db 4, 3, SOLARBEAM
-	db 5, 1, FIRE_BLAST
-	db 5, 2, DIG
-	db 5, 3, DOUBLE_EDGE
-	db 6, 1, THUNDERPUNCH
-	db 6, 2, PSYCHIC_M
-	db 6, 3, CONFUSE_RAY
+	db 4, 1, PSYCHIC_M
+	db 4, 2, THUNDERPUNCH
+	db 4, 3, BODY_SLAM
+	db 5, 1, DIG
+	db 5, 2, BODY_SLAM
+	db 5, 3, FIRE_BLAST
+	db 6, 1, AGILITY
 	db 0
 
 	db SABRINA, 1 ; db $FF, 50, ABRA,  48, HYPNO, 49, MR_MIME, 50, KADABRA,  50, ALAKAZAM, 0

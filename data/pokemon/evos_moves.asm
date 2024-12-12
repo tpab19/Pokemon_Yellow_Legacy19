@@ -2114,8 +2114,8 @@ BulbasaurEvosMoves:
 	db EVOLVE_LEVEL, 16, IVYSAUR
 	db 0
 ; Learnset
-	db 7, LEECH_SEED
-	db 9, VINE_WHIP
+	db 4, LEECH_SEED
+	db 8, VINE_WHIP
 	db 22, POISONPOWDER
 	db 25, SLEEP_POWDER
 	db 29, RAZOR_LEAF
@@ -2137,7 +2137,7 @@ VenusaurEvosMoves:
 	db 36, SLUDGE
 	db 38, GROWTH
 	db 42, BODY_SLAM
-	db 54, SOLARBEAM
+	db 54, PETAL_DANCE
 	db 0
 
 TentacruelEvosMoves:
@@ -2219,12 +2219,12 @@ MissingNoA2EvosMoves:
 
 PonytaEvosMoves:
 ; Evolutions
-	db EVOLVE_LEVEL, 40, RAPIDASH
+	db EVOLVE_LEVEL, 33, RAPIDASH
 	db 0
 ; Learnset
 	db 19, STOMP
 	db 25, DOUBLE_KICK
-	db 30, TAIL_WHIP
+	db 30, HEADBUTT
 	db 33, FLAMETHROWER
 	db 35, AGILITY
 	db 36, FIRE_SPIN
