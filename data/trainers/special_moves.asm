@@ -27,6 +27,7 @@ SpecialTrainerMoves:
 	db 0
 
 	db MISTY, 1
+	db 1, 1, PECK
 	db 3, 3, AGILITY
 	db 0
 
@@ -36,9 +37,8 @@ SpecialTrainerMoves:
 	db 2, 1, BLIZZARD
 	db 3, 1, PSYCHIC_M
 	db 3, 2, THUNDER
-	db 4, 1, SURF
-	db 4, 2, EARTHQUAKE
-	db 4, 4, REFLECT
+	db 4, 1, BLIZZARD
+	db 4, 3, BODY_SLAM
 	db 5, 1, SUBSTITUTE
 	db 5, 3, BLIZZARD
 	db 6, 1, SURF
@@ -260,27 +260,25 @@ SpecialTrainerMoves:
 	db 5, 3, THUNDERBOLT
 	db 0
 
-	db GIOVANNI, 3 ; 53, DUGTRIO, 54, NIDOQUEEN, 55, PERSIAN,  54, NIDOKING, 55, RHYDON
+	db GIOVANNI, 3 ; 53, DUGTRIO, 55, PERSIAN,  54, NIDOKING, 55, RHYDON, 55, MEWTWO
 	db 1, 1, EARTHQUAKE
 	db 1, 2, SLASH
 	db 1, 3, FISSURE
 	db 1, 4, ROCK_SLIDE
-	db 2, 1, EARTHQUAKE
-	db 2, 2, ICE_BEAM
-	db 2, 3, THUNDERBOLT
-	db 2, 4, BODY_SLAM
-	db 3, 1, SLASH
-	db 3, 2, HYPER_BEAM
-	db 3, 3, BUBBLEBEAM
-	db 3, 4, THUNDERBOLT
-	db 4, 1, EARTHQUAKE
-	db 4, 2, BLIZZARD
-	db 4, 3, THUNDER
-	db 4, 4, SLUDGE
-	db 5, 1, ROCK_SLIDE
-	db 5, 2, EARTHQUAKE
-	db 5, 3, SUBMISSION
-	db 5, 4, THUNDERBOLT
+	db 2, 1, SLASH
+	db 2, 2, HYPER_BEAM
+	db 2, 3, BUBBLEBEAM
+	db 2, 4, THUNDERBOLT
+	db 3, 1, EARTHQUAKE
+	db 3, 2, BLIZZARD
+	db 3, 3, THUNDER
+	db 3, 4, SLUDGE
+	db 4, 1, ROCK_SLIDE
+	db 4, 2, EARTHQUAKE
+	db 4, 3, SUBMISSION
+	db 4, 4, THUNDERBOLT
+	db 5, 1, REFLECT
+	db 5, 3, REST
 	db 0
 
 	db LORELEI, 1 ; 56, SLOWBRO, 55, CLOYSTER, 55, DEWGONG,  56, JYNX, 57, LAPRAS
