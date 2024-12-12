@@ -629,7 +629,7 @@ TangelaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, ABSORB
+	db 13, ABSORB
 	db 19, VINE_WHIP
 	db 21, LEECH_SEED
 	db 23, STUN_SPORE

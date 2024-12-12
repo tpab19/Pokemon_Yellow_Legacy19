@@ -1,6 +1,6 @@
 Route1WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db  3, PIDGEY
+	db  3, BULBASAUR
 	db  4, PIDGEY
 	db  2, RATTATA
 	db  3, RATTATA
