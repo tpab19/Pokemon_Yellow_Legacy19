@@ -6,8 +6,8 @@ Route6WildMons:
 	db 16, PIDGEY
 	db 16, LICKITUNG
 	db 15, PSYDUCK
-	db 17, PIDGEOTTO
-	db 16, PONYTA
+	db 17, SLOWPOKE
+	db 16, SLOWPOKE
 	db 17, MAGNEMITE
 	db 19, MAGNEMITE
 	end_grass_wildmons

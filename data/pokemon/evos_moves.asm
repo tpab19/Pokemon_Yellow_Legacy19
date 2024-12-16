@@ -327,9 +327,9 @@ IvysaurEvosMoves:
 	db 7, LEECH_SEED
 	db 9, VINE_WHIP
 	db 16, ACID
-	db 22, POISONPOWDER
-	db 25, SLEEP_POWDER
-	db 29, RAZOR_LEAF
+	db 18, POISONPOWDER
+	db 20, SLEEP_POWDER
+	db 23, RAZOR_LEAF
 	db 38, GROWTH
 	db 42, BODY_SLAM
 	db 54, SOLARBEAM
@@ -570,11 +570,11 @@ ScytherEvosMoves:
 	db 6, FOCUS_ENERGY
 	db 16, CUT
 	db 24, AGILITY
-	db 30, WING_ATTACK
-	db 36, SLASH
-	db 42, TWINEEDLE
+	db 28, WING_ATTACK
+	db 32, SLASH
+	db 40, TWINEEDLE
+	db 43, SWORDS_DANCE
 	db 48, DOUBLE_TEAM
-	db 54, SWORDS_DANCE
 	db 0
 
 StaryuEvosMoves:
@@ -670,11 +670,11 @@ OnixEvosMoves:
 ; Learnset
 	db 12, ROCK_THROW
 	db 19, DIG
-	db 25, RAGE
-	db 29, HARDEN
+	db 25, TAKE_DOWN
+	db 29, SHARPEN
 	db 31, SLAM
-	db 37, ROCK_SLIDE
-	db 43, EARTHQUAKE
+	db 35, ROCK_SLIDE
+	db 38, EARTHQUAKE
 	db 48, BIND
 	db 0
 
@@ -985,7 +985,7 @@ MankeyEvosMoves:
 
 SeelEvosMoves:
 ; Evolutions
-	db EVOLVE_LEVEL, 34, DEWGONG
+	db EVOLVE_LEVEL, 32, DEWGONG
 	db 0
 ; Learnset
 	db 5, GROWL
@@ -1755,8 +1755,9 @@ DewgongEvosMoves:
 	db 16, AURORA_BEAM
 	db 21, REST
 	db 25, BUBBLEBEAM
-	db 32, TAKE_DOWN
-	db 40, ICE_BEAM
+	db 32, BODY_SLAM
+	db 36, ICE_BEAM
+	db 38, RECOVER
 	db 50, BLIZZARD
 
 MissingNo79EvosMoves:
@@ -2219,12 +2220,12 @@ MissingNoA2EvosMoves:
 
 PonytaEvosMoves:
 ; Evolutions
-	db EVOLVE_LEVEL, 33, RAPIDASH
+	db EVOLVE_LEVEL, 28, RAPIDASH
 	db 0
 ; Learnset
-	db 19, STOMP
-	db 25, DOUBLE_KICK
-	db 30, HEADBUTT
+	db 17, STOMP
+	db 22, DOUBLE_KICK
+	db 26, HEADBUTT
 	db 33, FLAMETHROWER
 	db 35, AGILITY
 	db 36, FIRE_SPIN
@@ -2240,10 +2241,10 @@ RapidashEvosMoves:
 	db 25, DOUBLE_KICK
 	db 28, GROWL
 	db 30, TAIL_WHIP
-	db 33, FLAMETHROWER
+	db 29, FLAMETHROWER
 	db 35, AGILITY
 	db 36, FIRE_SPIN
-	db 40, TAKE_DOWN
+	db 40, BODY_SLAM
 	db 45, FIRE_BLAST
 	db 50, HI_JUMP_KICK
 	db 0
