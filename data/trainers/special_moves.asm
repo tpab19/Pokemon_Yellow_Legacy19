@@ -10,9 +10,9 @@ SpecialTrainerMoves:
 
 	db BROCK, 1
 	db 1, 3, ROCK_THROW
-	db 2, 1, CONSTRICT
-	db 2, 3, BIDE
-	db 2, 4, BIND
+	db 3, 1, CONSTRICT
+	db 3, 3, BIDE
+	db 3, 4, BIND
 	db 0
 
 	db BROCK, 2
@@ -28,7 +28,8 @@ SpecialTrainerMoves:
 
 	db MISTY, 1
 	db 1, 1, PECK
-	db 3, 3, AGILITY
+	db 2, 1, BUBBLEBEAM
+	db 4, 2, AGILITY
 	db 0
 
 	db MISTY, 2
@@ -120,12 +121,14 @@ SpecialTrainerMoves:
 
 	db KOGA, 1 ; 42, SCYTHER, 42, GOLBAT, 42, TENTACRUEL, 43, VICTREEBEL, 0
 	db 1, 1, FOCUS_ENERGY
+	db 1, 4, CUT
 	db 2, 3, CONFUSE_RAY
 	db 3, 1, SURF
 	db 3, 2, ICE_BEAM
 	db 3, 4, SLUDGE
-	db 4, 1, STUN_SPORE
-	db 4, 2, MEGA_DRAIN
+	db 4, 3, MEGA_DRAIN
+	db 5, 1, STUN_SPORE
+	db 5, 2, MEGA_DRAIN
 	db 0
 
 	db KOGA, 2 ; 48, SCYTHER, 49, GOLBAT, 49, TENTACRUEL, 48, MUK, 50, VICTREEBEL, 0

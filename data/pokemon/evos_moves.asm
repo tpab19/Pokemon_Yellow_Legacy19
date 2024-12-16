@@ -584,7 +584,7 @@ StaryuEvosMoves:
 ; Learnset
 	db 7, WATER_GUN
 	db 10, CONFUSION
-	db 15, SWIFT
+	db 20, SWIFT
 	db 22, HARDEN
 	db 24, BUBBLEBEAM
 	db 27, RECOVER
@@ -1383,10 +1383,9 @@ SeadraEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, WATER_GUN
 	db 14, SMOKESCREEN
 	db 18, LEER
-	db 22, BUBBLEBEAM
+	db 21, BUBBLEBEAM
 	db 26, DRAGON_RAGE
 	db 30, AURORA_BEAM
 	db 33, WATERFALL
