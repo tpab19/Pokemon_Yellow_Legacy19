@@ -47,11 +47,12 @@ SpecialTrainerMoves:
 	db 6, 4, THUNDERBOLT
 	db 0
 
-	db LT_SURGE, 1 ; db $FF, 29, RAICHU, 0
-	db 1, 1, THUNDERBOLT
+	db LT_SURGE, 1 ; db $FF, 24, VOLTORB, 29, RAICHU, 0
 	db 1, 2, THUNDER_WAVE
-	db 1, 3, BODY_SLAM
-	db 1, 4, SURF
+	db 2, 1, THUNDERBOLT
+	db 2, 2, THUNDER_WAVE
+	db 2, 3, BODY_SLAM
+	db 2, 4, SURF
 	db 0
 
 	db LT_SURGE, 2 ; db $FF, 64, ELECTRODE, 65, MAGNETON, 64, JOLTEON, 64, PORYGON, 64, ELECTABUZZ, 65, RAICHU, 0
@@ -170,6 +171,9 @@ SpecialTrainerMoves:
 	db 4, 2, PSYCHIC_M
 	db 4, 3, CONFUSE_RAY
 	db 4, 4, THUNDERPUNCH
+	db 5, 1, HYPER_BEAM
+	db 5, 2, BODY_SLAM
+	db 5, 3, FIRE_BLAST
 	db 0
 
 	db BLAINE, 2
@@ -249,8 +253,8 @@ SpecialTrainerMoves:
 	db 2, 1, ICE_PUNCH
 	db 2, 2, ROCK_SLIDE
 	db 2, 3, SUBMISSION
-	db 3, 1, DIG
-	db 3, 3, ROCK_SLIDE
+	db 3, 2, DIG
+	db 3, 4, ROCK_SLIDE
 	db 4, 1, EARTHQUAKE
 	db 4, 2, ROCK_SLIDE
 	db 4, 3, EXPLOSION
