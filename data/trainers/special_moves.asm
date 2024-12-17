@@ -29,7 +29,9 @@ SpecialTrainerMoves:
 	db MISTY, 1
 	db 1, 1, PECK
 	db 2, 1, BUBBLEBEAM
-	db 4, 2, AGILITY
+	db 3, 1, AMNESIA
+	db 4, 1, SWIFT
+	db 4, 3, AGILITY
 	db 0
 
 	db MISTY, 2
