@@ -70,7 +70,7 @@ Route25TrainerHeaders:
 Route25TrainerHeader0:
 	trainer EVENT_BEAT_ROUTE_25_TRAINER_0, 0, Route25Youngster1BattleText, Route25Youngster1EndBattleText, Route25Youngster1AfterBattleText
 Route25TrainerHeader1:
-	trainer EVENT_BEAT_ROUTE_25_TRAINER_1, 0, Route25Youngster2BattleText, Route25Youngster2EndBattleText, Route25Youngster2AfterBattleText
+	trainer EVENT_BEAT_ROUTE_25_TRAINER_1, 2, Route25Youngster2BattleText, Route25Youngster2EndBattleText, Route25Youngster2AfterBattleText
 Route25TrainerHeader2:
 	trainer EVENT_BEAT_ROUTE_25_TRAINER_2, 0, Route25CooltrainerMBattleText, Route25CooltrainerMEndBattleText, Route25CooltrainerMAfterBattleText
 Route25TrainerHeader3:
@@ -84,7 +84,7 @@ Route25TrainerHeader6:
 Route25TrainerHeader7:
 	trainer EVENT_BEAT_ROUTE_25_TRAINER_7, 0, Route25Hiker2BattleText, Route25Hiker2EndBattleText, Route25Hiker2AfterBattleText
 Route25TrainerHeader8:
-	trainer EVENT_BEAT_ROUTE_25_TRAINER_8, 0, Route25Hiker3BattleText, Route25Hiker3EndBattleText, Route25Hiker3AfterBattleText
+	trainer EVENT_BEAT_ROUTE_25_TRAINER_8, 3, Route25Hiker3BattleText, Route25Hiker3EndBattleText, Route25Hiker3AfterBattleText
 	db -1 ; end
 
 Route25Youngster1Text:

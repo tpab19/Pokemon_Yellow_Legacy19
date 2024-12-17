@@ -88,13 +88,13 @@ SilphCo5F_TextPointers:
 SilphCo5TrainerHeaders:
 	def_trainers 2
 SilphCo5TrainerHeader0:
-	trainer EVENT_BEAT_SILPH_CO_5F_TRAINER_0, 1, SilphCo5FRocket1BattleText, SilphCo5FRocket1EndBattleText, SilphCo5FRocket1AfterBattleText
+	trainer EVENT_BEAT_SILPH_CO_5F_TRAINER_0, 0, SilphCo5FRocket1BattleText, SilphCo5FRocket1EndBattleText, SilphCo5FRocket1AfterBattleText
 SilphCo5TrainerHeader1:
 	trainer EVENT_BEAT_SILPH_CO_5F_TRAINER_1, 2, SilphCo5FScientistBattleText, SilphCo5FScientistEndBattleText, SilphCo5FScientistAfterBattleText
 SilphCo5TrainerHeader2:
-	trainer EVENT_BEAT_SILPH_CO_5F_TRAINER_2, 4, SilphCo5FRockerBattleText, SilphCo5FRockerEndBattleText, SilphCo5FRockerAfterBattleText
+	trainer EVENT_BEAT_SILPH_CO_5F_TRAINER_2, 0, SilphCo5FRockerBattleText, SilphCo5FRockerEndBattleText, SilphCo5FRockerAfterBattleText
 SilphCo5TrainerHeader3:
-	trainer EVENT_BEAT_SILPH_CO_5F_TRAINER_3, 3, SilphCo5FRocket2BattleText, SilphCo5FRocket2EndBattleText, SilphCo5FRocket2AfterBattleText
+	trainer EVENT_BEAT_SILPH_CO_5F_TRAINER_3, 0, SilphCo5FRocket2BattleText, SilphCo5FRocket2EndBattleText, SilphCo5FRocket2AfterBattleText
 	db -1 ; end
 
 SilphCo5FSilphWorkerMText:
