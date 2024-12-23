@@ -6881,7 +6881,7 @@ ApplyBadgeStatBoosts:
 	ld a, [wLinkState]
 	cp LINK_STATE_BATTLING
 	ret z ; return if link battle
-	ld a, [wObtainedBadges]
+	ld a, 0 
 	ld b, a
 	ld hl, wBattleMonAttack
 	ld c, $4
