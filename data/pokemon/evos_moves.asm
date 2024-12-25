@@ -1538,8 +1538,8 @@ JolteonEvosMoves:
 	db 30, DOUBLE_KICK
 	db 36, THUNDERBOLT
 	db 39, PIN_MISSILE
-	db 41, AGILITY
-	db 47, THUNDER_WAVE
+	db 41, THUNDER_WAVE
+	db 47, AGILITY
 	db 52, THUNDER
 	db 0
 
@@ -2219,13 +2219,13 @@ MissingNoA2EvosMoves:
 
 PonytaEvosMoves:
 ; Evolutions
-	db EVOLVE_LEVEL, 28, RAPIDASH
+	db EVOLVE_LEVEL, 32, RAPIDASH
 	db 0
 ; Learnset
 	db 17, STOMP
 	db 22, DOUBLE_KICK
 	db 26, HEADBUTT
-	db 33, FLAMETHROWER
+	db 28, FLAMETHROWER
 	db 35, AGILITY
 	db 36, FIRE_SPIN
 	db 40, TAKE_DOWN
@@ -2239,10 +2239,10 @@ RapidashEvosMoves:
 	db 19, STOMP
 	db 25, DOUBLE_KICK
 	db 28, GROWL
-	db 30, TAIL_WHIP
+	db 30, TAKE_DOWN
 	db 29, FLAMETHROWER
 	db 35, AGILITY
-	db 36, FIRE_SPIN
+	db 36, SWORDS_DANCE
 	db 40, BODY_SLAM
 	db 45, FIRE_BLAST
 	db 50, HI_JUMP_KICK
