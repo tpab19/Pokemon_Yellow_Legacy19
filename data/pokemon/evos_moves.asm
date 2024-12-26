@@ -485,6 +485,7 @@ ArcanineEvosMoves:
 ; Learnset
 	db 18, EMBER
 	db 23, LEER
+	db 25, FLAME_CHARGE
 	db 30, TAKE_DOWN
 	db 45, FLAMETHROWER
 	db 46, AGILITY
@@ -659,6 +660,7 @@ GrowlitheEvosMoves:
 ; Learnset
 	db 18, EMBER
 	db 23, LEER
+	db 25, FLAME_CHARGE
 	db 30, TAKE_DOWN
 	db 35, FLAMETHROWER
 	db 36, AGILITY
@@ -853,7 +855,7 @@ ParasectEvosMoves:
 
 PsyduckEvosMoves:
 ; Evolutions
-	db EVOLVE_LEVEL, 33, GOLDUCK
+	db EVOLVE_LEVEL, 30, GOLDUCK
 	db 0
 ; Learnset
 	db 10, DISABLE
@@ -1243,6 +1245,7 @@ VulpixEvosMoves:
 	db 7, QUICK_ATTACK
 	db 13, ROAR
 	db 16, CONFUSE_RAY
+	db 23, FLAME_CHARGE
 	db 25, REFLECT
 	db 32, FLAMETHROWER
 	db 37, NIGHT_SHADE
@@ -1519,7 +1522,7 @@ FlareonEvosMoves:
 	db 8, SAND_ATTACK
 	db 10, LEER
 	db 23, QUICK_ATTACK
-	db 26, EMBER
+	db 26, FLAME_CHARGE
 	db 30, DOUBLE_KICK
 	db 36, FLAMETHROWER
 	db 39, DOUBLE_EDGE
@@ -1832,9 +1835,9 @@ GolduckEvosMoves:
 	db 15, CONFUSION
 	db 17, BUBBLEBEAM
 	db 23, SCREECH
-	db 40, FURY_SWIPES
-	db 42, PSYCHIC_M
-	db 45, AMNESIA
+	db 35, FURY_SWIPES
+	db 38, PSYCHIC_M
+	db 40, AMNESIA
 	db 50, HYDRO_PUMP
 	db 0
 
@@ -2224,8 +2227,9 @@ PonytaEvosMoves:
 ; Learnset
 	db 17, STOMP
 	db 22, DOUBLE_KICK
+	db 24, FLAME_CHARGE
 	db 26, HEADBUTT
-	db 28, FLAMETHROWER
+	db 32, FLAMETHROWER
 	db 35, AGILITY
 	db 36, FIRE_SPIN
 	db 40, TAKE_DOWN
